@@ -1,0 +1,148 @@
+header {
+    box-shadow: 0px 10px 26px rgba(0, 0, 0, 0.25);
+    position: sticky;
+    top: 0;
+    padding: 4px 0;
+    z-index: 100;
+}
+
+nav {
+    width: 79%;
+}
+
+.navbar-ul>li {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-right: 0.5rem;
+}
+
+.navbar-ul a {
+    color: #565555;
+}
+
+.navbar-border {
+    height: 2.5px;
+    background-color: #526DB4;
+}
+
+.navbar-border-2 {
+    height: 2.5px;
+    background-color: #526DB4;
+    display: none;
+    transition: 1s ease;
+}
+
+
+.navbar-ul>li:nth-child(2):hover .navbar-border-2 {
+    display: flex;
+}
+
+.navbar-ul>li:nth-child(1):hover .navbar-border-2 {
+    display: flex;
+}
+
+.contact-main>div:first-child {
+    padding: 40px 0;
+}
+
+.contact-div {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.contact-div:nth-child(2) {
+    margin-bottom: 8.5%;
+}
+
+.contact-div:nth-child(3) {
+    margin-bottom: 8.6%;
+}
+
+.contact-div:nth-child(4) {
+    margin-bottom: 7.4%;
+}
+
+.contact-div>img {
+    margin-right: 35px;
+}
+
+
+.ready-h1 {
+    color: #2D2D2D;
+    margin-bottom: 10%;    
+    font-family: Montserrat;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+
+footer {
+    background-color: #526DB4;
+    padding: 40px 0;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.footer a {
+    text-align: end;
+}
+
+footer>div {
+    width: 78.4%;
+}
+
+.footer {
+    margin-bottom: 3.5%;
+}
+
+@media (max-width: 992px) {
+    .contact-main {
+        flex-direction: column-reverse;
+    }
+
+    .ready-h1 {
+        font-size: 32px;
+    }
+
+    .contact-div>img {
+        width: 23.43px;
+    }
+
+    .footer {
+        margin: 0;
+    }
+    
+    .footer a, .offcanvas-div a {
+        text-align: start;
+        margin-bottom: 40px;
+    }
+
+    .header-logo {
+        width: 119px;
+    }
+
+    .sidebar-lang-change {
+        width: 127px;
+    }
+
+    .offcanvas {
+        width: 100% !important;
+    }
+
+    .offcanvas-div a, .offcanvas-div p {
+        color: #526db4;
+    }
+
+}
