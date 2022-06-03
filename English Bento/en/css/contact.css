@@ -71,6 +71,10 @@ nav {
     margin-right: 35px;
 }
 
+.rightdiv {
+    line-height: 0;
+}
+
 .ready-h1 {
     color: #2D2D2D;
     margin-bottom: 10%;
